@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+}
+.carousel{
+    height: 500px;
+}
+#time-box{
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+#value-box{
+    background-color: darkcyan;
+    border: 1px solid black;
+}
+.carousel-indicators li { 
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px; /* change width */
+    height: 10px; /* change height */
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 100%;/* add border-radius */
+}
+.a-submit{
+    text-decoration: none;
+}
+#value-box{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    height: 30px;
+    width: 60px;
+    padding: 3px 3px 3ox 3px;
+    text-align: center;
+    background-color: azure;
+    margin: 20px;
+}
